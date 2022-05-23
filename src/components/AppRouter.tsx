@@ -5,7 +5,7 @@ import Login from '../pages/Login'
 import Event from '../pages/Event'
 
 const AppRouter = () => {
-    const isAuth = true
+    const isAuth = false
     return (
         isAuth ?
             <Routes>
